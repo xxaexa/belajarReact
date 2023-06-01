@@ -1,4 +1,4 @@
-import img1 from './assets/images/pp.jpg'
+import img1 from './assets/images/portofolio1.png'
 import ig from './assets/images/instagram.png'
 import email from './assets/images/email.png'
 import twitter from './assets/images/twitter.png'
@@ -30,12 +30,17 @@ export const skills = [
   {
     id: 2,
     title: 'CSS',
-    body: 'TAILWIND',
+    body: 'Bootstrap Tailwind',
   },
   {
     id: 3,
-    title: 'Javascript',
-    body: 'react',
+    title: 'JS',
+    body: 'JQuery React Node Express',
+  },
+  {
+    id: 4,
+    title: 'PHP',
+    body: 'Sebagian',
   },
 ]
 
@@ -43,18 +48,22 @@ export const portofolio = [
   {
     id: 1,
     img: img1,
+    desc: '1Portofolio Ini dibuat saat saya sedang UAS dibuat dengan HTML CSS BOOTSTRAP PHP ',
   },
   {
     id: 2,
     img: img1,
+    desc: '2Portofolio Ini dibuat saat saya sedang UAS dibuat dengan HTML CSS BOOTSTRAP PHP ',
   },
   {
     id: 3,
     img: img1,
+    desc: '3Portofolio Ini dibuat saat saya sedang UAS dibuat dengan HTML CSS BOOTSTRAP PHP ',
   },
   {
     id: 4,
     img: img1,
+    desc: '4Portofolio Ini dibuat saat saya sedang UAS dibuat dengan HTML CSS BOOTSTRAP PHP ',
   },
 ]
 
