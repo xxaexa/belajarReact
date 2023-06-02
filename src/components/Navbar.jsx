@@ -1,14 +1,16 @@
 import { navLink } from './../Data'
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <nav>
-      <ul className="space-x-3 text-3xl hidden md:block lg:flex">
+      <ul className="space-x-3 mx-auto max-w-sm text-2xl lg:max-w-lg hidden md:block lg:flex">
         {navLink.map((nav) => {
           const { id, text, href } = nav
           return (
             <li key={id}>
-              <a href={href}>{text} </a>
+              <a className="hover:text-white" href={href}>
+                {text}{' '}
+              </a>
             </li>
           )
         })}
@@ -16,3 +18,5 @@ export const Navbar = () => {
     </nav>
   )
 }
+
+export default Navbar

@@ -8,20 +8,20 @@ const Toggle = (props) => {
   return (
     <div className="text-center my-4">
       <button
-        className=" w-32 bg-slate-900 text-white hover:opacity-70 hover:text-slate-200 transition duration-500 ease-in py-2 px-4 rounded-full font-bold mx-auto hover:rounded-none "
-        onMouseEnter={() => setToggleThisElement((prev) => !prev)}
+        className=" w-32 bg-slate-900 text-white  hover:text-slate-200 transition  py-2 px-4 rounded-full font-bold mx-auto hover:rounded-none ease-in duration-500"
         onMouseOut={() => setToggleThisElement((prev) => !prev)}
+        onMouseEnter={() => setToggleThisElement((prev) => !prev)}
       >
         {title}
       </button>
-      {toggleThisElement && <div className="w-32  bg-slate-900 text-white opacity-70 hover:text-slate-200 transition duration-500 ease-in-out py-2 px-4 rounded-b-full font-bold mx-auto">{body}</div>}
+      {toggleThisElement && <div className="w-32 bg-slate-900 text-white   transition duration-500 ease-in-out py-2 px-4 rounded-b-lg font-bold mx-auto">{body}</div>}
     </div>
   )
 }
 
 export default function Kemampuan() {
   return (
-    <section className="my-10">
+    <section id="kemampuan" className="my-4">
       <Title text="KEMAMPUAN" />
       <div className="flex flex-wrap justify-center  ">
         {skills.map((skill) => {

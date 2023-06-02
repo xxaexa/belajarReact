@@ -1,5 +1,5 @@
 import waves from '../assets/images/waves.jpg'
-
+import Navbar from './Navbar'
 const Hero = () => {
   return (
     <section id="hero">
@@ -26,6 +26,8 @@ const Hero = () => {
             Mahasiswa semester 6, selama berkuliah saya menjadi tertarik dengan dunia pemrograman web akhirnya saya mencoba belajar mulai dari mencari tutorial,membaca dokumentasi sampai mengikuti beberapa kursus secara online dan saya
             punya beberapa portofolio yang pernah saya buat
           </p>
+          <br />
+          <Navbar />
         </div>
       </div>
     </section>
